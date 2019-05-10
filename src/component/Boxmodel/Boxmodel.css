@@ -1,0 +1,27 @@
+.btn-click
+{
+color: black !important;
+background-color: white !important;
+border-color: white;
+}
+
+.btn-click:focus {
+    /* outline: 0; */
+  box-shadow:none !important;
+}
+.btn-click:hover{
+    background-color:white !important; 
+    color: black !important;
+}
+.btn-click:active{
+    background-color:white !important; 
+    color: black !important;
+}
+
+.vid-sty
+{
+    position: absolute;
+    top:68px;
+    left: -9px;
+
+}

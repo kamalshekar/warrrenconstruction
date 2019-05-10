@@ -1,0 +1,13 @@
+
+.row-align-midddel
+{
+display: flex;
+background-color:#252525;
+  align-items: center;
+  
+  justify-content: center;
+
+  width: 100%;
+  height:auto;
+ 
+}

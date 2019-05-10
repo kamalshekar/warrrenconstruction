@@ -1,0 +1,19 @@
+.fontstyle
+{
+    font-weight: bold;
+    color: #fff;
+}
+.arow-style
+{
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    background-color: #817bfc;
+    padding: 10px;
+    top: -1px;
+    right: -24px;
+}
+.bg-color
+{
+background-color:#252525;
+}

@@ -1,0 +1,46 @@
+a {
+    text-decoration: none !important;
+}
+.navb-li:hover{
+    background-color: #ffffff
+}
+.navb-li:first-child:hover{
+    background-color: unset;
+    cursor: unset;
+}
+.call{
+    background-color: #817BFC;
+}
+.renv-logo{
+    background-color: #817BFC;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+@media only screen and (max-width:768px){
+    .renv-logo{
+        height: 70px !important;
+        width: 70px !important;
+        padding: 10px !important;
+    }
+    .renv-logo>img{
+        width: 50px !important;
+    }
+}
+@media only screen and (min-width:768px){
+    .renv-logo{
+        height: 100px;
+        width: 100px;
+        padding: 15px;
+    }
+    .renv-logo>img{
+        width: 70px;
+    }
+}
+.stk {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:9999;
+}
+

@@ -1,0 +1,30 @@
+
+.sub-containerdiv
+{
+color:#bebec5;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+background-color: #ffff;
+
+}
+.span-line
+{
+    border: 1px solid white;
+}
+.main-contianer
+{
+    position: relative;
+}
+.line-border
+{
+    padding-left: 28px;
+
+    font-size: 2px;
+    background-color: #928dfc;
+}
+.txt-colr
+{
+    color: black !important;
+}
