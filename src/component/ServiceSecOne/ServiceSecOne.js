@@ -29,6 +29,7 @@ export default class AbourSecOne extends Component {
         <h1 className="font-weight">Optimize Your Service Bussiness!</h1>
         <p className="pt-3">Lorem ipsum donec id elit  at egetLorem ipsum donec id elit  at egetLorem ipsum donec id elit  at eget.</p>
         </div>
+        <div class="b-t pb-5">
         <div className="btn-section pt-5">
         <ButtonToolbar>
   <Button className="btn-suces " variant="success">14 Days Free Trail</Button>
@@ -36,8 +37,9 @@ export default class AbourSecOne extends Component {
  </ButtonToolbar>
         </div>
       </div>
+      </div>
       <div style={ sectionStyling } class="col-md-5 d-n">
-      dsadasdasdfdsfsdfdf
+     
       </div>
       {/* <div class="col-md-6 p-0 ">
      

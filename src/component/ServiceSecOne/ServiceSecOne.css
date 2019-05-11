@@ -74,4 +74,17 @@ background-color: #ccd1ec;
 {
   display:none;
 }
+.b-t .btn-section .btn-toolbar
+{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.opt-section {
+  width: 100%;
+}
+.colum-section
+{
+  text-align: center;
+}
 }
