@@ -1,0 +1,87 @@
+.content-information
+{
+display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.row-bg-col
+{
+    background-color: #f8f7fc;
+}
+.fas-Style-info
+{
+    font-size: 40px;
+    background-color: pink;
+    padding: 3%;
+    border-radius: 50%;
+    color: #ce425a;
+}
+.bg-img-block
+{
+    width: 100%;
+    height: 80vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  background-image: url('../../images/poeple.png');
+}
+.Con-Section-info
+{
+padding-left: 10%;
+    padding-right: 35%;
+}
+.box-div
+{
+position: absolute;
+    right: 0;
+    width: 17%;
+    height: 64px;
+    background-color: #ccd1ec;
+}
+.Main-Box-div
+{
+    padding-bottom: 4rem;
+}
+
+.Sub-box-div
+{
+position: absolute;
+right: 29px;
+width: 4%;
+height: 64px;
+background-color:#ccd1ec;
+}
+
+.d-set-d
+{
+
+background-color: #ccd1ec;
+padding: 20px;
+width: 3%;
+text-align: center;
+justify-content: center;
+display: flex;
+position: absolute;
+top: 59%;
+}
+.set-w
+{
+    border: 2px solid black;
+    width: 3%;
+}
+
+@media only screen and (max-width:767px)
+{
+
+    .Con-Section-info {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0 ;
+    }
+    .bg-img-block
+{
+    display: none;
+}
+}

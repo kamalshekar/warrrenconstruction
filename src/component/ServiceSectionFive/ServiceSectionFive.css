@@ -1,0 +1,71 @@
+.fa-sty-bg
+{
+    font-weight: 900;
+    padding: 8%;
+    color: #ce425a;
+    font-size: 33px;
+    background-color: pink;
+    border-radius: 40%;
+}
+.fa-sty-bgq
+{
+    font-weight: 900;
+    padding: 8%;
+    color: green;
+    font-size: 33px;
+    background-color: #0080006b;
+    border-radius: 40%;
+}
+.fa-sty-bgr
+{
+    font-weight: 900;
+    padding: 8%;
+    color: #cf2e49;
+    font-size: 33px;
+    background-color: #fa99aa9e;
+    border-radius: 40%;
+}
+.fa-sty-bgw
+{
+    font-weight: 900;
+    padding: 8%;
+    color: #02ff02;
+    font-size: 33px;
+    background-color: #adf8b0cc;
+    border-radius: 40%;
+}
+.pt-rw
+{
+    padding-top:4rem;
+}
+.box-div-five
+{
+position: absolute;
+right: 0;
+width: 10%;
+top: 0px;
+height: 70px;
+background-color: #ccd1ecab;
+}
+
+.Main-Box-sub
+{
+padding-top: 7%;
+padding-bottom: 7%;
+}
+.pt-top
+{
+    padding-top :4%;
+}
+
+.box-div-six
+{
+position: absolute;
+    
+    bottom: 0;
+    width: 10%;
+    left: 0;
+
+    height: 70px;
+    background-color: #ccd1ecab;
+}

@@ -33,8 +33,9 @@ export default class Boxmodel extends Component {
           <i class="fas fa-caret-right arow-style"></i>
             
             {/* <i class="fas fa-caret-right arow-style"></i> */}
+
           </Button>
-  fdsdfdsfd
+
   <div className="mb-top">
           <Modal show={this.state.show} onHide={this.handleClose}>
            <div className="vid-sty">

@@ -1,0 +1,51 @@
+.st-pt-m
+{
+    background: linear-gradient(to right, #373b44, #4286f4); 
+}
+.st-pt
+{
+    
+    padding: 8%;
+    color: white;
+}
+.st-pt-sec
+{
+    padding: 8%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.hr-sty
+{
+    
+ 
+    border: 2px solid;
+    width: 7%;
+    position: absolute;
+}
+@media only screen and (max-width:400px)
+{
+
+.st-pt-sec {
+   padding: 5%;
+    color: white;
+}
+.st-pt-m {
+   
+    padding-bottom: 8%;
+}
+}
+
+@media only screen and (max-width:900px)
+{
+    .st-pt-sec
+{
+    margin: none;
+    padding: 5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+ 
+}
+}
