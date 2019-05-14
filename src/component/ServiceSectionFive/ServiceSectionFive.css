@@ -16,6 +16,10 @@
     background-color: #0080006b;
     border-radius: 40%;
 }
+.A-sty
+{
+cursor: pointer;
+}
 .fa-sty-bgr
 {
     font-weight: 900;

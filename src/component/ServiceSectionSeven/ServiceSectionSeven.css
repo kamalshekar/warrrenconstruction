@@ -1,0 +1,109 @@
+.boxshow:hover
+{
+    box-shadow: 0 0 5px 5px #8888882e;
+background-color: #ffffff;
+}
+
+.h-s
+{
+    font-size: 4.5rem;
+}
+.b-St
+{
+    margin-right: 10%;
+    border-radius: 20px;
+    background-color: #3cde61d9;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 12px;
+    border: none;
+    font-size: 12px;
+    justify-content: center;
+    margin: 0;
+    outline: none;
+    padding-bottom: 12px;
+    color:white;
+
+}
+.box-div-Seven {
+    position: absolute;
+    /* right: 0; */
+    width: 10%;
+    top: 0px;
+    height: 111px;
+    background-color: #ccd1ecab;
+    left: 0;
+}
+.box-div-Sev
+{
+position: absolute;
+right: 0;
+width: 10%;
+top: 0px;
+height: 111px;
+background-color: #ccd1ecab;
+}
+.Main-Box-seven
+{
+    background-color: #f8f7fc;
+}
+
+.b-t .btn-section .btn-toolbar
+{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.full-style 
+{
+    background-color: #f8f7fc;
+}
+.p-b-symain
+{
+    background-color: #f8f7fc;
+}
+.btn-suces-Seven
+{
+    margin-right: 10%;
+    border-radius: 20px;
+    background-color: #3cde61d9;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    /* font-size: 12px; */
+    padding-bottom: 10px;
+}
+.btn-pry-Seven
+{
+    
+    border-radius: 20px;
+    background-color: #9e9e9e;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    /* font-size: 12px; */
+    padding-bottom: 10px; 
+}
+
+
+.P-T
+{
+    padding-top: 6%;
+}
+.Main-Box-seven {
+    padding-top: 7%;
+    
+}
+.p-b-sty
+{
+    padding-bottom: 4%;
+    background-color: #f8f7fc;
+}
+
+@media only screen and (max-width:350px)
+{
+    .btn-suces-Seven {
+     margin-right: 0px;
+      
+    }
+}

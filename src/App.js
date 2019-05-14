@@ -7,7 +7,9 @@ import ServiceSectionTwo from './component/ServiceSectionTwo/ServiceSectionTwo'
 import ServiceSectionThree from './component/ServiceSectionThree/ServiceSectionThree'
 import ServiceSectionFour from './component/ServiceSectionFour/ServiceSectionFour'
 import ServiceSectionFive from './component/ServiceSectionFive/ServiceSectionFive'
+import ServiceSectionSeven from './component/ServiceSectionSeven/ServiceSectionSeven'
 import ServiceSectionSix from './component/ServiceSectionSix/ServiceSectionSix'
+import ServiceSectionEight from './component/ServiceSectionEight/ServiceSectionEight'
 import {Switch,Route} from 'react-router-dom'
 
 export default class App extends Component {
@@ -26,6 +28,9 @@ export default class App extends Component {
     <ServiceSectionFour />
     <ServiceSectionFive />
     <ServiceSectionSix />
+    
+    <ServiceSectionSeven/>
+    <ServiceSectionEight/>
       </div>
     )
   }
