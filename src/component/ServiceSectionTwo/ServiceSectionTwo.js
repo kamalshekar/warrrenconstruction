@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import  './ServiceSectionTwo.css'
-
+import { Button, ButtonToolbar,  } from 'react-bootstrap';
 export default class ServiceSectionTwo extends Component {
   render() {
     return (
@@ -38,6 +38,12 @@ export default class ServiceSectionTwo extends Component {
     <p className="mt-4">Lorem ipsum donec id elit  at eget
           Lorem ipsum donec id elit  at eget
           Lorem ipsum donec id elit  at eget</p>
+          <div className="btn-section pt-5">
+        <ButtonToolbar>
+  <Button className="btn-suces " variant="success">14 Days Free Trail</Button>
+
+ </ButtonToolbar>
+        </div>
     </div>
 
       </div>     

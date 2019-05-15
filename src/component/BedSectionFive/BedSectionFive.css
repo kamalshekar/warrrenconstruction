@@ -1,0 +1,23 @@
+.Text_C
+{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5%;
+}
+.R-w
+{
+    background-color: #f8f7fc;
+}
+.R_W_o
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+@media only screen and (max-width:767px)
+{
+    .Text_C
+    {
+        text-align:center;
+    } 
+}

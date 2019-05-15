@@ -10,6 +10,14 @@ import ServiceSectionFive from './component/ServiceSectionFive/ServiceSectionFiv
 import ServiceSectionSeven from './component/ServiceSectionSeven/ServiceSectionSeven'
 import ServiceSectionSix from './component/ServiceSectionSix/ServiceSectionSix'
 import ServiceSectionEight from './component/ServiceSectionEight/ServiceSectionEight'
+import BedSectionOne from './component/BedSectionOne/BedSectionOne'
+import BedSectionTwo from './component/BedSectionTwo/BedSectionTwo'
+import BedSectionThree from './component/BedSectionThree/BedSectionThree'
+import BedSectionFour from './component/BedSectionFour/BedSectionFour'
+import BedSectionFive from './component/BedSectionFive/BedSectionFive'
+import BedSectionSix from './component/BedSectionSix/BedSectionSix'
+
+import BedSectionSeven from './component/BedSectionSeven/BedSectionSeven'
 import {Switch,Route} from 'react-router-dom'
 
 export default class App extends Component {
@@ -28,9 +36,16 @@ export default class App extends Component {
     <ServiceSectionFour />
     <ServiceSectionFive />
     <ServiceSectionSix />
-    
+ 
     <ServiceSectionSeven/>
     <ServiceSectionEight/>
+    <BedSectionOne/>
+    <BedSectionTwo/>
+<BedSectionThree/>
+<BedSectionFour/>
+<BedSectionFive/>
+<BedSectionSix/>
+<BedSectionSeven/>
       </div>
     )
   }

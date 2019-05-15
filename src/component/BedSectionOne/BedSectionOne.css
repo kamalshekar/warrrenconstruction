@@ -1,0 +1,97 @@
+
+.M_Row
+{
+background: #373b44; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #373b44, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.M_Row
+{
+    position: relative;
+}
+.Img-Sec
+{
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    width: 18%;
+    top: 21%;
+}
+.T-HStye
+{
+    font-size: 8rem;
+    font-weight: bold;
+}
+.Span-Col
+{
+    color: #0b5dc2;
+    
+}
+.Ro-Style
+{
+    position: relative;
+}
+.Col-Bg
+{
+    height: 81vh;
+    width: 100%;
+ 
+}
+.Sub-Col-Tex
+{
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    width: 50%;
+}
+.Col-Bg-Sub
+{   height: 81vh;
+    width: 100%;
+    background-color: #f8f7fc;
+
+}
+.Image-S
+{
+    width: 100%
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+    .T-HStye {
+        font-size: 4rem;
+    }
+    .Img-Sec {
+        position: absolute;
+        z-index: 1;
+        left: 40%;
+        width: 18%;
+        top: 25%;
+    }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+
+    .T-HStye {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .Img-Sec {
+     
+            position: absolute;
+            z-index: 1;
+            top: 7%;
+            width: 100%;
+            left: 0;
+    }
+    .Sub-Col-Tex {
+        position: none;
+    
+        width: 100%;
+        text-align: center;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    }
+
+}

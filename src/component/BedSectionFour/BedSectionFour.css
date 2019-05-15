@@ -1,0 +1,179 @@
+.G_Img
+{
+    width: 42%;
+    height: auto;
+    position: absolute;
+    right: 0;
+
+
+}
+.B_X-F
+{
+    padding: 10%;
+    background: #ccd1ec;
+    width: 36%;
+    position: absolute;
+    
+   
+    top: 11rem;
+    left: 10rem;
+}
+.F_Text
+{
+    position: absolute;
+    bottom: -20rem;
+    left: 30%;
+
+}
+.R_Text_lamp
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.G_Img_lamp
+{
+    width: 64%;
+    padding-top: 17%;
+
+}
+.B_X_Lamp {
+    padding: 10%;
+    background: #ccd1ec;
+    width: 30%;
+    position: absolute;
+    bottom: 6rem;
+    left: 8rem;
+    z-index: -1;
+
+}
+.P_A
+{
+    
+    padding-top: 10%;
+    padding-bottom:30%;
+}
+.B_X{
+
+    padding: 10%;
+    background:#ccd1ec;
+    width: 36%;
+    position: absolute;
+    right: 14px;
+    /* z-index: 1; */
+    top: 5rem;
+}
+
+.P_TEX
+{
+    position: absolute;
+    top: 16rem;
+    right: 151px;
+}
+.P_TEXT
+{
+    position: absolute;
+    top: 9rem;
+    transform: rotate(90deg);
+    right: 17rem;
+}
+
+
+
+
+.H_TEX
+{
+position: absolute;
+right: 16rem;
+}
+
+
+@media only screen and (min-width:768px)and (max-width:965px)
+{
+    .H_TEX {
+        position: absolute;
+        right: 8rem;
+    }
+.P_TEXT {
+    position: absolute;
+    top: 6rem;
+    transform: rotate(90deg);
+    right: 9rem;
+}
+.B_X {
+    padding: 10%;
+    background: #ccd1ec;
+    width: 36%;
+    position: absolute;
+    right: 14px;
+    /* z-index: 1; */
+    top: 3rem;
+}
+.P_TEX {
+    position: absolute;
+    top: 10rem;
+    right: 40px;
+}
+
+}
+
+@media only screen and (min-width:966px)and (max-width:1200px)
+{.P_TEXT {
+    position: absolute;
+    top: 7rem;
+    transform: rotate(90deg);
+    right: 10rem;
+}
+.H_TEX {
+    position: absolute;
+    right: 10rem;
+}
+.P_TEX {
+    position: absolute;
+    top: 12rem;
+    right: 51px;
+}
+
+}
+
+
+@media only screen and (min-width:1965px)and (max-width:2280px)
+{
+    .P_TEXT {
+        position: absolute;
+        top: 9rem;
+        transform: rotate(90deg);
+        right: 21rem;
+    }
+    .P_TEX {
+        position: absolute;
+        top: 17rem;
+        right: 164px;
+    }
+}
+
+@media only screen and (min-width:2281px)and (max-width:2600px)
+{
+    .P_TEXT {
+        position: absolute;
+        top: 9rem;
+        transform: rotate(90deg);
+        right: 28rem;
+    }
+    .P_TEX {
+        position: absolute;
+        top: 16rem;
+        right: 312px;
+    }
+    .H_TEX {
+        position: absolute;
+        right: 25rem;
+    }
+}
+@media only screen and (max-width:768px)
+
+{
+    .P_A
+    {display: none;
+    }
+}
