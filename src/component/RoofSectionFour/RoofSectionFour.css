@@ -1,0 +1,27 @@
+.Carousel_Padding_Left
+{
+
+    padding-top: 32%;
+
+}
+
+.Ul_Float li{
+display: inline-block;
+padding-right: 3%;
+padding-bottom: 3%;
+}
+
+.Ul_Float li i{
+font-size: 2rem;
+}
+.Image-Stying_top
+{
+    padding-top: 53%;
+}
+.Box_c_Sub {
+    background: #ff00001c;
+    width: 78%;
+    height: 83%;
+    right: 0;
+    position: absolute;
+}

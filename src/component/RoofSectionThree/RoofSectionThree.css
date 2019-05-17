@@ -1,0 +1,83 @@
+.Box_c
+{
+    background: #ff00001c;
+    width: 72%;
+   
+    height: 83%;
+    position: absolute;
+}
+
+.Carousel_Padding_bottom .carousel
+{
+    top:7rem;
+}
+
+.Florida_Content_center
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 6%;
+}
+.Florida_Content_center p
+{
+    color: gray;
+}
+.Florida_Content_center .btn-success:active
+{
+    color: #fff;
+    background-color: #ffc107c9 !important ;
+    border-color: #FFC107 !important;
+}
+.Florida_Content_center .btn-success:hover
+{
+    color: #fff;
+    background-color: #ffc107c9;
+    border-color: #FFC107;
+}
+.Florida_Content_center .btn-success
+{
+    color: #fff;
+    background-color: #ffc107c9;
+    border-color: #FFC107;
+
+}
+.Carousel_Padding_bottom .carousel-indicators
+{
+    display: none;
+}
+
+.Main_Section_BtPadding
+{
+padding-bottom: 6%;
+}
+@media only screen and (min-width:0px)and (max-width:500px)
+{ .Florida_Content_center 
+    {
+        padding-top: 40%;
+    text-align: center;
+    }
+    .Florida_Content_center .btn-success
+    {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width:501px) and (max-width:992px)
+{ .Florida_Content_center 
+    {
+        padding-top: 27%;
+    text-align: center;
+    }
+    .Florida_Content_center .btn-success
+    {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+}

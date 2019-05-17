@@ -1,0 +1,52 @@
+.Sub-text-cont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: "80vh";
+    padding: 4%;
+}
+
+    .Sub-text-cont .btn-success:active
+{
+    color: #fff;
+    background-color: #ffc107c9 !important ;
+    border-color: #FFC107 !important;
+}
+.Sub-text-cont .btn-success:hover
+{
+    color: #fff;
+    background-color: #ffc107c9;
+    border-color: #FFC107;
+}
+.Sub-text-cont .btn-success
+{
+    color: #fff;
+    background-color: #ffc107c9;
+    border-color: #FFC107;
+
+}
+.Sub-text-cont .btn-success
+{
+    color: #fff;
+    background-color: #ffc107c9;
+    border-color: #FFC107;
+
+}
+
+@media only screen and (min-width:0px)and (max-width:767px)
+{
+    .Sub-text-cont
+    {
+        text-align: center;
+        padding-top: 13%;
+    }
+    
+    .Sub-text-cont .btn-success
+    {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+
+}

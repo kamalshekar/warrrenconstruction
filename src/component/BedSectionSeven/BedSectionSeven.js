@@ -22,6 +22,7 @@ export default class BedSectionSeven extends Component {
             <div className="B_W">
             <h1>Application Form </h1>
             <p>Lerom firn piutn cmfdj</p>
+            
         <Form>
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>

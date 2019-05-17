@@ -1,0 +1,20 @@
+.F_T_S li{
+    font-size: 4rem;
+    color: #ffa500b3;
+}
+.P_T_B 
+{
+    padding-top: 7%; 
+}
+.P_T_B_Main
+{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.P_T_B_Main p{
+    color:grey;
+}
+.Main_continer
+{
+    background-color: #f8f7fc;
+}
