@@ -35,7 +35,7 @@ export default class Contact extends Component {
                             <textarea class="form-control form_Edit" rows="3" placeholder="Message"/>
                         </div>
                     </div>
-                    <button type="submit" className="btn fr-des col-md-8 col-sm-12 mt-5" style={{backgroundColor:"#817BFC"}}>Send Message</button>
+                    <button onClick={this.props.submit} type="button" className="btn fr-des col-md-8 col-sm-12 mt-5" style={{backgroundColor:"#817BFC"}}>Send Message</button>
                 </form>
             </div>
             <div className="col-md-5 Context_text_Section text-center pl-0">

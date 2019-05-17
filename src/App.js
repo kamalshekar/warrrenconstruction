@@ -23,8 +23,7 @@ import Home from './Home/Main'
 // import RoofSectionThree from './component/RoofSectionThree/RoofSectionThree'
 // import RoofSectionFour from './component/RoofSectionFour/RoofSectionFour'
 // import RoofSectionFive from './component/RoofSectionFive/RoofSectionFive'
-import Contact from './component/Contact/Contact'
-import ThankYou from './component/Thankyou/Thankyou'
+import ParentContact from './component/Contact/ParentContact'
 import {Switch,Route} from 'react-router-dom'
 
 export default class App extends Component {
@@ -35,6 +34,7 @@ export default class App extends Component {
      
       <Switch>
         <Route path='/' exact component={Home}/>
+        <Route path="/contact" exact component={ParentContact} />
         {/* <Route path='/service' exact component={Service}/> */}
         {/* <Route path='/service' exact component={ServiceSectionTwo}/> */}
       </Switch>
@@ -58,8 +58,6 @@ export default class App extends Component {
 < RoofSectionThree/>
 < RoofSectionFour/>
 < RoofSectionFive/> */}
-<Contact/>
-<ThankYou/>
       </div>
     )
   }
