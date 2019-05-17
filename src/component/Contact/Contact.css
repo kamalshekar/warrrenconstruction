@@ -6,16 +6,27 @@ justify-content: center;
 align-items: center;
 
 }
-.name
-{
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control-placeholder {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    color: #d3d3d3;
-    transition: 0.2s all;
-    cursor: text;
-}
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+  
+  .form_Edit:focus + .form-control-placeholder,
+  .form_Edit:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    color: #005294;
+  }
+
 .B_L
 {
     border-right: 1px solid black;

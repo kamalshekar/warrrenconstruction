@@ -16,23 +16,39 @@ export default class Contact extends Component {
             <form className="B_L">
                     <div className="form-row">
                         <div className="form-group col-md-4 col-sm-6">
-                        <input type="text" class="form-control form_Edit" placeholder="First name"/>
+                        <div class="form-group">
+        <input type="text" id="name" class=" form-control form_Edit" required/>
+        <label class="form-control-placeholder" for="name">First Name</label>
+      </div>
                         </div>
                         <div className="form-group col-md-4 col-sm-6">
-                        <input type="email" className="form-control form_Edit" placeholder="Email"/>
+                        <div class="form-group">
+        <input type="text" id="name2" class=" form-control form_Edit" required/>
+        <label class="form-control-placeholder" for="name2">Email</label>
+      </div>
                         </div>
                     </div>
                     <div className="form-row">
                         <div className="form-group col-md-4 col-sm-6">
-                        <input type="number" className="form-control form_Edit" placeholder="Phone number"/>
+                        <div class="form-group">
+        <input type="Number" id="name3" class=" form-control form_Edit" required/>
+        <label class="form-control-placeholder" for="name3">Phone Number</label>
+      </div>
                         </div>
                         <div className="form-group col-md-4 col-sm-6">
-                        <input type="text" className="form-control form_Edit" placeholder="Post Code"/>
+                        <div class="form-group">
+        <input type="Number" id="name4" class=" form-control form_Edit" required/>
+        <label class="form-control-placeholder" for="name4">Post Code</label>
+      </div>
                         </div>
                     </div>
                     <div className="form-row  ">
                         <div class="form-group col-md-8 col-sm-12">
-                            <textarea class="form-control form_Edit" rows="3" placeholder="Message"/>
+                        <div class="form-group">
+        <textarea type="Number" id="name5" class=" form-control form_Edit" required/>
+        <label class="form-control-placeholder" for="name5">Message</label>
+      </div>
+                          
                         </div>
                     </div>
                     <button onClick={this.props.submit} type="button" className="btn fr-des col-md-8 col-sm-12 mt-5" style={{backgroundColor:"#817BFC"}}>Send Message</button>
