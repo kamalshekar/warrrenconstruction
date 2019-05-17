@@ -1,0 +1,68 @@
+.bg-clr-main
+{
+height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.B_L
+{
+    border-right: 1px solid black;
+}
+.form_Edit
+{
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0 !important;
+    border-color: black;
+
+}
+.form_Edit:focus
+{
+    box-shadow: none;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    border-color: black;
+
+    border-radius: none;
+}
+
+.Context_text_Section
+{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.Border_style 
+{
+
+}
+.container_bg
+{
+   
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px)
+{
+    /* .bg-clr-main
+    {  margin-top: 10%;
+    } */
+    .Context_text_Section
+    {
+  display: none;
+    }    
+    .B_L
+{
+    border-right: none;
+}
+}
+
+

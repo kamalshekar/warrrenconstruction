@@ -1,0 +1,23 @@
+.Main_thank
+{
+    height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.F_FAS
+{
+
+    font-size: 4rem;
+}
+.hr_w
+{
+    width: 40%;
+}
+.Label_size
+{
+    color: white;
+    background-color: black;
+    padding: 1%;
+}

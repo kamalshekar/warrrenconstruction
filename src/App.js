@@ -15,14 +15,16 @@ import Home from './Home/Main'
 // import BedSectionThree from './component/BedSectionThree/BedSectionThree'
 // import BedSectionFour from './component/BedSectionFour/BedSectionFour'
 // import BedSectionFive from './component/BedSectionFive/BedSectionFive'
-import BedSectionSix from './component/BedSectionSix/BedSectionSix'
+// import BedSectionSix from './component/BedSectionSix/BedSectionSix'
 
-import BedSectionSeven from './component/BedSectionSeven/BedSectionSeven'
-import RoofSectionOne from './component/RoofSectionOne/RoofSectionOne'
-import RoofSectionTwo from './component/RoofSectionTwo/RoofSectionTwo'
-import RoofSectionThree from './component/RoofSectionThree/RoofSectionThree'
-import RoofSectionFour from './component/RoofSectionFour/RoofSectionFour'
-import RoofSectionFive from './component/RoofSectionFive/RoofSectionFive'
+// import BedSectionSeven from './component/BedSectionSeven/BedSectionSeven'
+// import RoofSectionOne from './component/RoofSectionOne/RoofSectionOne'
+// import RoofSectionTwo from './component/RoofSectionTwo/RoofSectionTwo'
+// import RoofSectionThree from './component/RoofSectionThree/RoofSectionThree'
+// import RoofSectionFour from './component/RoofSectionFour/RoofSectionFour'
+// import RoofSectionFive from './component/RoofSectionFive/RoofSectionFive'
+import Contact from './component/Contact/Contact'
+import ThankYou from './component/Thankyou/Thankyou'
 import {Switch,Route} from 'react-router-dom'
 
 export default class App extends Component {
@@ -49,13 +51,15 @@ export default class App extends Component {
 <BedSectionThree/>
 <BedSectionFour/>
 <BedSectionFive/> */}
-<BedSectionSix/>
+{/* <BedSectionSix/>
 <BedSectionSeven/>
 < RoofSectionOne/>
 < RoofSectionTwo/>
 < RoofSectionThree/>
 < RoofSectionFour/>
-< RoofSectionFive/>
+< RoofSectionFive/> */}
+<Contact/>
+<ThankYou/>
       </div>
     )
   }
